@@ -48,7 +48,7 @@ function addTask() {
   if (!validateInputs(title, description)) return;
 
   var task = {
-    id: taskCouid++, 
+    id: idCounter++, 
     Title: title,
     Description: description,
     done: false 
